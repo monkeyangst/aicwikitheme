@@ -31,7 +31,6 @@ div#p-logo {
 */}
 h1#aic-title {
 	position: absolute;
-	color: White;
 	font-size: 22pt;
 	left: 160px;
 	top: 15px;
@@ -46,7 +45,10 @@ h1#aic-title {
     1px 1px 0 #4da9e8;  
 	
 }
-
+h1#aic-title a, h1#aic-title a:visited {
+	color: White;
+	
+}
 
 #toc .toctoggle, .toc .toctogle {
 	font-size: 8px;
@@ -64,6 +66,10 @@ p, pre, .mw-code {
 h1,h2,h3,h4,h5,h6 {
 	color: #0D74BF;
 	font-weight: bold;
+}
+
+h1, h2 {
+	border-bottom-color: #4DA9E8;
 }
 
 span.editsection {
