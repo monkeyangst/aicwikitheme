@@ -45,6 +45,10 @@ h1#aic-title {
     1px 1px 0 #4da9e8;  
 	
 }
+a.aic-logo {
+	background-image: url(images/aic-logo.png);
+}
+
 h1#aic-title a, h1#aic-title a:visited {
 	color: White;
 	
